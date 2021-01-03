@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Monday",
+    "sales": 42,
+    "bestSeller": "lemonade"
+  },
+  {
+    "day": "Tuesday",
+    "sales": 56,
+    "bestSeller": "lemonade"
+  },
+  {
+    "day": "Wednesday",
+    "sales": 37,
+    "bestSeller": "water"
+  },
+  {
+    "day": "Thursday",
+    "sales": 143,
+    "bestSeller": "iced tea"
+  },
+  {
+    "day": "Friday",
+    "sales": 259,
+    "bestSeller": "iced tea"
+  },
+  {
+    "day": "Saturday",
+    "sales": 278,
+    "bestSeller": "lemonade"
+  },
+  {
+    "day": "Sunday",
+    "sales": 270,
+    "bestSeller": "pink lemonade"
+  }
+]

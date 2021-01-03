@@ -1,0 +1,12 @@
+<div *ngFor="let tweet of tweets; let i = index" id="tweet-card">
+  <md-card *ngIf="i > tweets.length - 10">
+    <md-card-header>
+      <img md-card-avatar [src]="tweet.profile_image_url">
+      <md-card-title><a href="http://twitter.com/{{tweet.username}}" target="_blank">@{{tweet.username}}</a></md-card-title>
+      <md-card-subtitle>{{tweet.created_at | date: 'medium'}}</md-card-subtitle>
+    </md-card-header>
+    <md-card-content>
+      <p>{{tweet.text}}</p>
+    </md-card-content>
+  </md-card>
+</div>

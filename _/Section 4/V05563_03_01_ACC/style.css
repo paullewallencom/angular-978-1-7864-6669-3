@@ -1,0 +1,16 @@
+.county {
+  stroke: grey;
+  stroke-width: 0.3;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#legend-container {
+  fill: white;
+  opacity: 0.9;
+  stroke: grey;
+  stroke-width: 2;
+}

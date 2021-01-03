@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1;
+}
+
+#scatterplot, #map {
+  width: 45%;
+}
